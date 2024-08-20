@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+.hero{
+    width: 100%;
+    /* height: 100vh; */
+    position: relative;
+    overflow: hidden;
+}
+.logo{
+    cursor: pointer;
+    margin-left: 8%;
+    color: black;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.logo span{
+    color: #67b7f0;
+}
+
+.navbar{
+    background: linear-gradient(#2788cd, #67b7f0);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%
+}
+
+
+.navbar ul{
+    margin-right: 8%;
+}
+.navbar ul a{
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+}
+
+.nav-right a:hover{
+    color: #030a60;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    display: block;
+    padding: 20 25px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul li ul.dropdown li{
+    display: block;
+    margin: 2px 0px;
+}
+
+ul li ul.dropdown{
+    width: auto;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+.isi{
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: url("./mal.png");
+    height: 100vh;
+    
+}
+
+.isi img{
+    max-width: 100%;
+}
+
+.isi-text{
+position: absolute;
+top: 5%;
+color: white;
+padding: 15px;
+}
+
+.isi-text h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.card{
+    width: 15%;
+    height: 20%;
+    background-color: #afafaf;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#card1{
+    background-color: lightgreen;
+}
+#card2{
+    background-color: plum;
+}
+#card3{
+    background-color: lightcoral;
+}
+#card4{
+    background-color: lightblue;
+}
+#card5{
+    background-color: pink;
+}
+
+.card img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+
+.card-detail{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 30px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 675px;
+}
+
+select {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+    width: 60%;
+}
+
+option {
+    color: black;
+}
